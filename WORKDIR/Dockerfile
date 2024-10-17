@@ -1,5 +1,5 @@
 FROM almalinux:9
-RUN workdir /temp/docker
+RUN mkdir /temp/docker
 WORKDIR /temp/docker
 RUN pwd
 RUN echo "hello" hello.txt
